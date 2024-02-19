@@ -1,6 +1,7 @@
-Valor1 = 8;
-Valor2 = 6;
+const numero = 9;
 
-if(Valor1 / 2 >= 0){
-    console.log("certo")
+if(numero % 2 == 0){
+    console.log(`${numero} é par!`);
+}else{
+    console.log(`${numero} é impar!`);
 }

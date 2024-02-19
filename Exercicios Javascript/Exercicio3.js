@@ -1,13 +1,16 @@
-const Portugues = 7.5;
-const Matematica = 9.0;
-const Ingles = 9.0;
-const Historia = 7.0;
+var nota1 = 9.8,
+    nota2 = 6.5,
+    nota3 = 8.7,
+    nota4 = 6.5,
+    media = 0;
 
+media = (nota1+nota2+nota3+nota4)/4;
 
-
-if (Portugues % Matematica % Ingles % Historia >= 7.0) {
-    console.log("Foi Aprovado!")
+media = media.toFixed(2);
+if(media >= 7.0){
+    console.log("Aprovado com sucesso!")
+    console.log('Sua media = ' + media);
 }else{
-    Media = Portugues % Matematica % Ingles % Historia < 7.0
-    console.log("Não foi Aprovado :(")
+    console.log("Reprovado!")
+    console.log('Sua media = ' + media);
 }

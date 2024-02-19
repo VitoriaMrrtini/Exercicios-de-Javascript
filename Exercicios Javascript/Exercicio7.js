@@ -1,5 +1,5 @@
-var Tabuada = 2
+var valor = 8
 
-for(i=0; Tabuada * i; i++){
-    console.log(Tabuada[i]);
+for(var i = 1;i < 11 ; i++){
+    console.log(valor + " x " + i + " = " + i*valor );
 }
