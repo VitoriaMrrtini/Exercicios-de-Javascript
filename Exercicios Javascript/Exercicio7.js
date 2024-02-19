@@ -1,5 +1,5 @@
-var valor = 8
+var valor = 2
 
-for(var i = 1;i < 11 ; i++){
-    console.log(valor + " x " + i + " = " + i*valor );
+for(var i = 1;i <= 10 ; i++){
+    console.log(valor + " x " + i + " = " + (i*valor));
 }
